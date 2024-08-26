@@ -1,0 +1,11 @@
+.main-body{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(250, 250, 250);
+  margin-top: 95px;
+}
+
+.fake-nav{
+  width: 14%;
+  height: 100%;
+}

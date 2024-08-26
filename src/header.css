@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    border-bottom: 2px solid rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .header-icon-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-menu{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .header-menu-dash{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    border-radius: 3px;
+    transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
+  }
+
+  .header-menu-dash-1{
+    transform: translateY(10px) rotate(45deg);
+    transform-origin: center;
+  }
+
+  .header-menu-dash-2{
+    opacity: 0;
+  }
+
+  .header-menu-dash-3{
+    transform: translateY(-10px) rotate(-45deg);
+    transform-origin: center;
+  }
+
+
+
+  .header-menu:hover{
+    background-color: rgb(212, 212, 212);
+  }
+  
+  .header-icon{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .header-title{
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  .header-signin-button{
+    padding: 5px 15px;
+    margin-right: 20px;
+  }

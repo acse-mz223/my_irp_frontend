@@ -1,0 +1,54 @@
+.data-map-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.data-map{
+    margin: 10px;
+}
+
+.divider{
+    width: 30%;
+}
+
+.data-pie-box{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.die-pie-filter-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.duation-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.duation-div h2{
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.pies{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
