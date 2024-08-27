@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0;url=/my_irp_frontend/">
+    <script>
+        // JavaScript重定向，以确保路径和hash被正确处理
+        function handleRedirect() {
+            var location = '/my_irp_frontend/' + window.location.pathname + window.location.search + window.location.hash;
+            window.location.href = location;
+        }
+        handleRedirect();
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="#" onclick="handleRedirect();">click here</a>.</p>
+</body>
+</html>
