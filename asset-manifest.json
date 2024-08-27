@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_irp_frontend/static/css/main.c3cc2016.css",
-    "main.js": "/my_irp_frontend/static/js/main.72ded56b.js",
+    "main.js": "/my_irp_frontend/static/js/main.f800ad0e.js",
     "static/media/earth_icon.svg": "/my_irp_frontend/static/media/earth_icon.c899bd7aedc44a1aeabc83dc36528eb0.svg",
     "index.html": "/my_irp_frontend/index.html",
     "static/media/image_icon.svg": "/my_irp_frontend/static/media/image_icon.2ddd6ef4ebddee017ee123dbc342823e.svg",
@@ -12,10 +12,10 @@
     "static/media/delete_icon.svg": "/my_irp_frontend/static/media/delete_icon.67aee4004d503cf04ef49747bcbf5426.svg",
     "static/media/menu_icon.svg": "/my_irp_frontend/static/media/menu_icon.9d5c7d143c5c8abe23da783721f07c65.svg",
     "main.c3cc2016.css.map": "/my_irp_frontend/static/css/main.c3cc2016.css.map",
-    "main.72ded56b.js.map": "/my_irp_frontend/static/js/main.72ded56b.js.map"
+    "main.f800ad0e.js.map": "/my_irp_frontend/static/js/main.f800ad0e.js.map"
   },
   "entrypoints": [
     "static/css/main.c3cc2016.css",
-    "static/js/main.72ded56b.js"
+    "static/js/main.f800ad0e.js"
   ]
 }
